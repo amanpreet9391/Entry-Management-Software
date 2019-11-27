@@ -1,0 +1,16 @@
+def host():
+    host=[]
+    print("Details of host")
+    NameHost = input("Name : ")
+    host.append(NameHost)
+    EmailHost = input("Email : ")
+    host.append(EmailHost)
+    PhoneNoHost = input("Phone Number : ")
+    host.append(PhoneNoHost)
+    Address = input("Address : ")
+    host.append(Address)
+    #print(NameHost)
+    #print(EmailHost)
+    #print(PhoneNoHost)
+    #print(host)
+    return(host)
