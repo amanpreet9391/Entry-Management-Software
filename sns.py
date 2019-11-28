@@ -5,7 +5,7 @@ import json
 
 def sms_to_host(host,Visitor):
     # Create an SNS client
-    with open('creds.json') as data_file:
+    with open('creds.json') as data_file:        # creds.json is the file which contains accesskey and secret access key id
         data = json.load(data_file)
 
 

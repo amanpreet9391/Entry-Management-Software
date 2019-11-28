@@ -4,17 +4,12 @@ from host import host
 def visitors():
     Visitor=[]
     print("Details of Visitor")
-    Name = input("Name : ")
+    Name = input("Name : ")                         # Name of Visitor
     Visitor.append(Name)
-    Email = input("Email : ")
+    Email = input("Email : ")                       # Email id of Visitor
     Visitor.append(Email)
-    PhoneNo = input("Phone Number : ")
+    PhoneNo = input("Phone Number : ")              # Phone Number of Visitor
     Visitor.append(PhoneNo)
-    #print(Name)
-    #print(Email)
-    #print(PhoneNo)
-    #Visitor.append(timeStamp())
     time=timeStamp()
     Visitor.append(time)
-    #print(Visitor)
     return(Visitor)

@@ -1,6 +1,6 @@
 import smtplib
 import getpass
-def mail_to_host(host,Visitor):						#function for sending mail
+def mail_to_host(host,Visitor):						#function for sending mail to host
 	
     
     content1= "Name - " + Visitor[0] + "\n" + "Email - " + Visitor[1] + "\n" + "Phone Number - " + Visitor[2] + "\n" + "Checkin Time - " + Visitor[3][1]
@@ -8,10 +8,6 @@ def mail_to_host(host,Visitor):						#function for sending mail
     mail=smtplib.SMTP('smtp.gmail.com',587 )				#smtp mail id and port number
     mail.ehlo()
     mail.starttls()
-    # sender_email="aman93913006@gmail.com"     #to get username and password of id from which mail is being sent
-    # print(sender_email)
-    #sender_password=input("Password for sender email id : ")
-	#sender_password=getpass.getpass("Enter password : ")
     sender_email=input("Enter email address of sender : ")
     sender_password=getpass.getpass("Enter password : ")	     
     mail.login(sender_email,sender_password)	
@@ -22,7 +18,7 @@ def mail_to_host(host,Visitor):						#function for sending mail
     print("mail delivered")
 
 
-def mail_to_visitor(host,Visitor):						#function for sending mail
+def mail_to_visitor(host,Visitor):						#function for sending mail to visitor
 	
    
     
@@ -31,8 +27,7 @@ def mail_to_visitor(host,Visitor):						#function for sending mail
     mail=smtplib.SMTP('smtp.gmail.com',587 )				#smtp mail id and port number
     mail.ehlo()
     mail.starttls()
-    #sender_email="aman93913006@gmail.com"     #to get username and password of id from which mail is being sent
-    #print(sender_email)
+    
     sender_email=input("Enter email address of sender : ")
     sender_password=getpass.getpass("Enter password for sender's id : ")
 			     
