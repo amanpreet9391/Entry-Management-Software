@@ -46,7 +46,8 @@ So, as a visitor checkout , his/her entry will be added in google spreadsheet.</
 ![entry-in-spreadsheet-after-checkout](https://user-images.githubusercontent.com/25201552/69770226-4e11ea00-11ae-11ea-86e1-b1b95c4353b6.png)
 </br>
 Function `visitor_db` from `visitor_db.py` will perform this task. </br>
- 
+ For more details , check out this [repository](https://github.com/amanpreet9391/Python-Google-Spreadsheets). </br>
+ </br>
  ### Export
  Excel sheets or Google spreadsheets are used a lot more often these days. In the last section, google spreadsheet was discussed. Now its time for Excel sheet. With this functionality , one can export the whole visitor database into an excel sheet. This export operation is generally used for taking database backup. We can use this backup later for various purposes. For example, this will help to reuse backup for restoring the database in the future.
 </br>
