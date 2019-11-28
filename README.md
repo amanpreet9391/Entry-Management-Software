@@ -1,5 +1,5 @@
 # Entry-Management-Software
-This prpoject is an `Entry Management Software`. With its help we will be able to track all the visitors (Name, Email Id, Phone Number, Checkin Time, Checkout Time).Now let us try to understand the basic work flow of this project.</br>
+This project is an `Entry Management Software`. With its help we will be able to track all the visitors (Name, Email Id, Phone Number, Checkin Time, Checkout Time).Now let us try to understand the basic work flow of this project.</br>
 </br>![flow-chart](https://user-images.githubusercontent.com/25201552/69768674-777b4780-11a7-11ea-9a23-5749e82a57dd.png)
 
 ### Input -
@@ -8,13 +8,13 @@ Details of Host - Name, Email Id, Phone Number , Address. </br>
 
 ### Options -
 There are four options available.</br>
-(1) To Checkin </br> 
-(2) To Checkout </br>
+(1) To Check-in </br> 
+(2) To Check-out </br>
 (3) To export database into an ` Excel Sheet `</br>
 (4) To exit </br>
 
 But before running the `main.py` script, we need to create database to store all the visitors's record. Run `db_setup.py` file to create database named `db1` and a table named `visitor`. To login into mysql run `mysql -u user -p` and then give the password.
-### Checkin
+### Check-in
  If a visitor wants to check in , he/she needs to press 1. Then fill their details. A mail as well as a sms will be delivered to the host containing the information of visitor along with the check in time.
  </br> ![checkin-visitor-1](https://user-images.githubusercontent.com/25201552/69769139-967ad900-11a9-11ea-9343-c4a04a3998ef.png)
  </br>
@@ -29,8 +29,8 @@ For mailing purpose, SMTP library is being used. Function `mail` in `mail.py` is
 To further add visitors, again press `1`.</br>
 
 
-### Checkout
-On pressing 2, a visitor can simply checkout. But in order to find out which visitor wants to checkout , it will first ask the `email address of the visitor`. The visitor with that specific email will be able to checkout. A mail is delivered with details of visitor, checkin time, chekcout time, host name and address visited. </br>
+### Check-out
+On pressing 2, a visitor can simply checkout. But in order to find out which visitor wants to checkout , it will first ask the `email address of the visitor`. The visitor with that specific email will be able to checkout. A mail is delivered with details of visitor, check-in time, check-out time, host name and address visited. </br>
 </br>
 ![checkout-visitor-2 2](https://user-images.githubusercontent.com/25201552/69769867-b8c22600-11ac-11ea-90dd-7b48512e1f85.png)
 Along with this , there are two more tasks which take place. </br>
@@ -40,7 +40,7 @@ Now its time to insert details related to the visitors in our database. As soon 
 ![database-at-the-end-of-day](https://user-images.githubusercontent.com/25201552/69770055-82d17180-11ad-11ea-8e25-3ef477a5effe.png)
 </br>
 #### Google Spreadsheet
-This is an additional feature involved with our software. Actually the most day-to-day tool used these days is google spreadsheets. Accessible from any internet-connected computer or mobile device. Allowing others to view online files. Shared access and editing in real time of online files.
+This is an additional feature included with our software. Actually the most commonly used tool these days is google spreadsheets. Accessible from any internet-connected computer or mobile device, allowing others to view online files, shared access and editing in real time of online files and so on. Because of so many used cases, we added this as a feature in our software.
 So, as a visitor checkout , his/her entry will be added in google spreadsheet.</br>
 </br>
 ![entry-in-spreadsheet-after-checkout](https://user-images.githubusercontent.com/25201552/69770226-4e11ea00-11ae-11ea-86e1-b1b95c4353b6.png)
