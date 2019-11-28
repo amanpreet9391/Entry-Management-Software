@@ -1,0 +1,10 @@
+1. install  mysql for your device 
+    sudo apt-get install mysql-server(linux)
+2. run db_setup.py
+3. pip install mysql.connector
+4. pip install openpyxl
+5. Pipenv install gspread
+6. Pipenv install oauth2client
+7. Pipenv install PyOpenSSL
+8. pip install boto3
+9. Run main.py

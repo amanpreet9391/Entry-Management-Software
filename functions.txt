@@ -1,0 +1,21 @@
+(1) host in host.py
+        To fetch details of host - Name,Email Address, Phone Number , Address.
+(2) visitors in visitor.py
+        To get details of visitor - Name, Email ID, Phone Number
+(3) timeStamp in entry.py
+        To get current date and time , for adding check-in and check-out for the visitor.
+(4) mail_to_host in mail.py
+        To send mail to the host at the time of visitor check-in ,including details of visitor along with check-in time.
+(5) mail_to_visitor in mail.py
+        To send mail to the visitor at the time of visitor check-out ,including details of visitor along with check-in time and check-out time.
+(6) sms_to_host in sns.py
+        To send SMS to host.
+(7) create_database in create_visitor_database.py
+        To insert details of visitor in database at the time of visitor's check-out.
+(8) connect_to_db in create_visitor_database.py
+        To provide creadentials for connecting to the database. 
+(9) db_setup.py
+        Create database - db1 and table inside it - visitor.
+(10) visitor_db in visitor_db.py
+        Adding details of visitor in google spreadsheet
+                                                           
