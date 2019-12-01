@@ -1,7 +1,8 @@
 # Entry-Management-Software
 This project is an `Entry Management Software`. With its help we will be able to track all the visitors (Name, Email Id, Phone Number, Checkin Time, Checkout Time).Now let us try to understand the basic work flow of this project.</br>
 </br>![flow-chart](https://user-images.githubusercontent.com/25201552/69768674-777b4780-11a7-11ea-9a23-5749e82a57dd.png)
-
+### How to run -
+All the scripts are written in python3. So in order to execute , just run `python3 main.py`.
 ### Input -
 Details of Host - Name, Email Id, Phone Number , Address. </br>
 </br>![entry-of-host](https://user-images.githubusercontent.com/25201552/69768771-f1133580-11a7-11ea-899b-27b85c14e814.png)
