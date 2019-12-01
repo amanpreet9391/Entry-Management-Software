@@ -34,6 +34,7 @@ To further add visitors, again press `1`.</br>
 ### Check-out
 On pressing 2, a visitor can simply checkout. But in order to find out which visitor wants to checkout , it will first ask the `email address of the visitor`. The visitor with that specific email will be able to checkout. A mail is delivered with details of visitor, check-in time, check-out time, host name and address visited. </br>
 </br>
+#### Mail to the visitor at the time of check-out
 ![checkout-visitor-2 2](https://user-images.githubusercontent.com/25201552/69769867-b8c22600-11ac-11ea-90dd-7b48512e1f85.png)
 Along with this , there are two more tasks which take place. </br>
 #### Database
