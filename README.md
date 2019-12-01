@@ -18,10 +18,10 @@ But before running the `main.py` script, we need to create database to store all
  If a visitor wants to check in , he/she needs to press 1. Then fill their details. A mail as well as a sms will be delivered to the host containing the information of visitor along with the check in time.
  </br> ![checkin-visitor-1](https://user-images.githubusercontent.com/25201552/69769139-967ad900-11a9-11ea-9343-c4a04a3998ef.png)
  </br>
- Mail to the host about details of the visitor</br>
+ #### Mail to the host about details of the visitor</br>
  </br>![checkin-111](https://user-images.githubusercontent.com/25201552/69769279-24ef5a80-11aa-11ea-8ade-8d0520dd8280.png)
 </br>
-SMS to the host about the details of the visitor</br>
+#### SMS to the host about the details of the visitor</br>
 </br>![sms-jags](https://user-images.githubusercontent.com/25201552/69769333-6f70d700-11aa-11ea-8f01-3a4926b02930.png)
 
 #### SMS
